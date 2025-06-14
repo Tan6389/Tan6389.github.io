@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>在中国使用giffgaff电话卡</title>
+      <link href="/2025/06/14/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E4%BD%BF%E7%94%A8giffgaff%E7%94%B5%E8%AF%9D%E5%8D%A1/"/>
+      <url>/2025/06/14/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E4%BD%BF%E7%94%A8giffgaff%E7%94%B5%E8%AF%9D%E5%8D%A1/</url>
+      
+        <content type="html"><![CDATA[<h1>🇬🇧 如何在中国大陆使用 giffgaff SIM（从购买到彻底关闭语音信箱）</h1><p>很多人为了备用手机号、收取认证码或者测试项目，会购买一张 <strong>giffgaff SIM卡</strong>（英国虚拟运营商，按需充值，无月租），但是 giffgaff 本身主要为 <strong>英国境内设计</strong>，我们身在中国时需要做一些设置和准备。</p><p>本文将手把手地说清楚以下环节：</p><p>✅ 如何购买 giffgaff SIM<br>✅ 如何激活 SIM<br>✅ 如何插卡设置<br>✅ 如何彻底<strong>免费地</strong>关闭语音信箱（以免产生附加收费）<br>✅ 小贴士：建议准备的操作（数据设置、API 检查）</p><hr><h2 id="🔹购买-giffgaff-SIM卡">🔹购买 giffgaff SIM卡</h2><p>建议可以通过以下几种方式购买：</p><ul><li><strong>官网申请</strong>：可以在 giffgaff <a href="https://www.giffgaff.com/">官网</a> 免费申请 SIM，邮寄到你的转运公司。</li><li><strong>淘宝/闲鱼</strong>：可以购买别人转让出的 giffgaff SIM，通常几元就可以到手。</li></ul><hr><h2 id="🔹准备工作">🔹准备工作</h2><p>收到 SIM卡后，你需要准备以下几样东西：</p><p>✅ 一部解锁且支持 GSM 的智能手机号（建议备用机）<br>✅ 一张 giffgaff SIM卡<br>✅ 一根取卡针</p><hr><h2 id="🔹激活-giffgaff-SIM卡（建议有-VPN时进行）">🔹激活 giffgaff SIM卡（建议有 VPN时进行）</h2><p>1️⃣ 打开 giffgaff 官网 <a href="https://www.giffgaff.com/activate">https://www.giffgaff.com/activate</a><br>2️⃣ 输入你的 SIM 卡背后印有的 6 位激活码<br>3️⃣ 绑定你的电子邮件进行账号设置<br>4️⃣ 依提示为 SIM 充值最少 £10，建议可以购买一个最便宜的 <strong>goodybag</strong>（套餐），以便激活时可以进行数据/语音测试。</p><hr><h2 id="🔹插卡设置">🔹插卡设置</h2><p>✅ 关机<br>✅ 插入 giffgaff SIM到备用机中（建议放在 SIM 2 槽）<br>✅ 开机，若设置为中文，建议可以在设置中修改为英文，方便调试</p><hr><h2 id="🔹彻底免费地关闭语音信箱（推荐）">🔹彻底免费地关闭语音信箱（推荐）</h2><p>我们可以通过 <strong>GSM代码</strong>彻底解除语音信箱转接设置，完全免费，且适用全球。</p><p>1️⃣ 打开“拨号”应用<br>2️⃣ 依次输入以下代码：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment">#004#</span></span></span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">3️⃣ 轻触“拨号”按键</span><br><span class="line">4️⃣ 几秒后，你将收到“所有转移均已解除”的提示</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># 🔹验证语音信箱已彻底停用</span></span></span><br><span class="line"></span><br><span class="line">可以用你的 **另一部手机号**拨打 giffgaff 这张 SIM：</span><br><span class="line"></span><br><span class="line">* 让它一直响到无人接听</span><br><span class="line">* 这时**电话将自动挂断**而不是转到语音信箱，表明设置成功。</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># 🔹建议设置（数据设置）</span></span></span><br><span class="line"></span><br><span class="line">🚀 为防止 **数据流量自动消耗**，建议可以：</span><br><span class="line"></span><br><span class="line">* 进入设置 &gt; SIM设置</span><br><span class="line">* 手动**禁用 giffgaff 的移动数据**</span><br><span class="line">  这样，即使插卡时数据开关不小心打开，你也不会产生数据收费。</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># 🔹API 小贴士（适用有 ADB 的用户）</span></span></span><br><span class="line"></span><br><span class="line">如你可以通过 ADB 控制你的备用机，你可以这样：</span><br><span class="line"></span><br><span class="line">```shell</span><br><span class="line">adb shell settings put global mobile_data 0</span><br></pre></td></tr></table></figure><p>这句话可以彻底<strong>关掉数据</strong>，以防止 SIM 自动消耗数据。</p><hr><h2 id="🔹结论">🔹结论</h2><p>这样，你就可以：<br>✅ 在中国大陆纯备用地使用 giffgaff SIM<br>✅ 能轻松收取 SMS（包括认证码）<br>✅ 不必担心语音信箱和数据消耗产生附加收费</p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> 通讯 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 通讯 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>经典诵读舞台脚本</title>
       <link href="/2025/05/02/%E7%BB%8F%E5%85%B8%E8%AF%B5%E8%AF%BB%E8%88%9E%E5%8F%B0%E8%84%9A%E6%9C%AC/"/>
       <url>/2025/05/02/%E7%BB%8F%E5%85%B8%E8%AF%B5%E8%AF%BB%E8%88%9E%E5%8F%B0%E8%84%9A%E6%9C%AC/</url>
