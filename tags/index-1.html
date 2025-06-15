@@ -5,14 +5,14 @@
   diytitle: undefined,
   LA51: undefined,
   greetingBox: undefined,
-  twikooEnvId: 'https://twikoo.sutan.cfd/',
+  twikooEnvId: 'https://twikoo.sutan.dpdns.org/',
   commentBarrageConfig:undefined,
   music_page_default: "custom",
   root: '/',
   preloader: undefined,
   friends_vue_info: {"apiurl":null},
   navMusic: false,
-  mainTone: {"mode":"api","api":"https://color.sutan.cfd/api?img=","cover_change":true},
+  mainTone: {"mode":"api","api":"https://color.sutan.dpdns.org/api?img=","cover_change":true},
   authorStatus: {"skills":"🔍 分享与热心帮助"},
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
@@ -314,7 +314,7 @@ queueMicrotask(() => {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://twikoo.sutan.cfd/',
+      envId: 'https://twikoo.sutan.dpdns.org/',
       region: '',
       onCommentLoaded: () => {
         anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -331,7 +331,7 @@ queueMicrotask(() => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://twikoo.sutan.cfd/',
+      envId: 'https://twikoo.sutan.dpdns.org/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -373,7 +373,7 @@ queueMicrotask(() => {
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://twikoo.sutan.cfd/',
+        envId: 'https://twikoo.sutan.dpdns.org/',
         region: '',
         pageSize: 6,
         includeReply: true
